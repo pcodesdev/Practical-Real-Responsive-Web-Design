@@ -7,7 +7,7 @@ h3,
 h4 {
   font-size: 3rem;
   line-height: 2.5rem;
-  /* color: #110de0; */
+  color: #1b1b1b;
   font-family: "Roboto", sans-serif;
   text-transform: capitalize;
   font-weight: bold;
@@ -33,16 +33,45 @@ h4 {
 p {
   font-family: "Poppins", sans-serif;
   line-height: 2rem;
+  color: #333232;
 }
 
 li {
-  list-style: none;
+  /* list-style: none; */
   font-family: "Montserrat", sans-serif;
 
   line-height: 2rem;
 }
-footer p {
+/* footer p {
+  font-size: 1rem;
+  line-height: 1rem;
+} */
+/* Left at combinining selectors */
+#author {
+  font-style: italic;
+}
+
+#footer {
   font-size: 1rem;
   line-height: 1rem;
 }
-/* Left at combinining selectors */
+
+.related-author {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.related {
+  list-style: none;
+}
+
+aside {
+  border-top: 2px solid #0306c9;
+  border-bottom: 2px solid #0306c9;
+}
+
+header {
+  background-color: #ffffff;
+}
+
+/* Working with colors */
