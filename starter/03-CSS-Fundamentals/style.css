@@ -1,6 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+/* Universal selector */
+* {
+  box-sizing: border-box;
+  /* margin: 0 3rem; */
+}
+
+/* Inheritance */
+body {
+  color: #1b1b1b;
+  font-family: "Poppins", sans-serif;
+  /* margin: 0 auto; */
+}
+
 h1,
 h2,
 h3,
@@ -75,3 +88,38 @@ header {
 }
 
 /* Working with colors */
+/* pseudo classes */
+li:first-child {
+  font-weight: 700;
+}
+li:last-child {
+  font-style: italic;
+}
+
+/* li:nth-child(2) {
+  color: #0306c9;
+} */
+
+/* Styling hyperlinks */
+/* LVHA */
+a:link {
+  background-color: #0306c9;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #eee9e9;
+}
+
+a:hover {
+  background-color: #3d3d3f;
+  color: #e6e3e3;
+}
+
+a:active {
+  background-color: #0306c9;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+}
