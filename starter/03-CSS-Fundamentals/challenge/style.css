@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200&display=swap');
 
+/* Headings Default Styles */
+
 h2,h3{
     font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
 }
+
+/* Paragraphs Default Styles */
 
 p{
     font-family: 'Roboto', sans-serif;
@@ -28,7 +33,17 @@ p{
     line-height: 2rem;
     font-weight: 700;
 }
-a:link{
+ 
+.discount{
+    text-transform: uppercase;
+    color: #797878;
+    font-size: 1rem;
+    /* font-weight: 700; */
+}
+
+/* Link */
+
+a:link,a:visited{
     color: #1d1c1c;
     font-size: 1.5rem;
 }
@@ -42,11 +57,15 @@ text-decoration: none;
     line-height: 2rem;
 }
 
+/* List */
+
 ul li{
     list-style-type: square;
     font-size: 1.5rem;
     line-height: 1.5rem;
 }
+
+/* Button */
 
 button{
     font-family: 'Poppins', sans-serif;
@@ -54,6 +73,9 @@ button{
     color:#f1f1f1;
     font-size: 1.5rem;
     line-height: 2rem;
+    font-weight: 700;
+
+    text-transform: uppercase;
 }
 button:hover{
     background-color:#f1f1f1;
