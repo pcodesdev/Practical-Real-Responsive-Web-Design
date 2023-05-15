@@ -5,6 +5,8 @@
 * {
   box-sizing: border-box;
   /* margin: 0 3rem; */
+  margin: 0;
+  padding: 0;
 }
 
 /* Inheritance */
@@ -29,10 +31,12 @@ h4 {
 h2 {
   font-size: 2.5rem;
   line-height: 2rem;
+  margin-bottom: 2rem;
 }
 h3 {
   font-size: 2rem;
   line-height: 1.5rem;
+  margin: 2.5rem 0 1rem 0
 }
 h4,
 p,
@@ -47,6 +51,12 @@ p {
   font-family: "Poppins", sans-serif;
   line-height: 2rem;
   color: #333232;
+  margin-bottom: 1rem;
+}
+
+ul,ol{
+  margin-left: 3rem;
+  margin-bottom: 2rem;
 }
 
 li {
@@ -69,6 +79,17 @@ li {
   line-height: 1rem;
 }
 
+.main-header{
+  background-color: #acaaaa;
+  padding: 2rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.post-header{
+  margin-bottom: 2.5rem;
+}
+
 .related-author {
   font-size: 1.5rem;
   font-weight: 700;
@@ -81,10 +102,15 @@ li {
 aside {
   border-top: 2px solid #0306c9;
   border-bottom: 2px solid #0306c9;
+  padding: 1rem 0 1rem 0;
 }
 
 header {
   background-color: #ffffff;
+}
+
+article{
+  margin-bottom: 2.5rem;
 }
 
 /* Working with colors */
@@ -125,3 +151,6 @@ a:active {
 }
 
 /* Inheritance */
+li{
+  margin: 1rem;
+}
