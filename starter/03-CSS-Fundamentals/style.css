@@ -188,6 +188,14 @@ li{
   right: 50%; */
   bottom: 50px;
   right: 50px;
+  border: 2px solid #dadada;
+  border-radius: 7px;
+}
+
+.btn-absolute:focus{
+  outline: none;
+  border-color: #9ecaed;
+  box-shadow: 0 0 10px #9ecaed;
 }
 
 /* pseudo elements */

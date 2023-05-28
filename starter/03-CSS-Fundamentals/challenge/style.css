@@ -28,6 +28,8 @@ p{
 
 #article{
     border: 4px solid #242424;
+    position: relative;
+    margin: 2rem 0;
 }
 
 .main-heading{
@@ -55,6 +57,10 @@ p{
     font-size: 1rem;
     margin-bottom: 1rem;
     /* font-weight: 700; */
+}
+
+.more-info{
+    /* margin-bottom: 1rem; */
 }
 
 /* .more-info{
@@ -109,3 +115,54 @@ button:hover{
     color:#1d1c1c;
 }
 /* Using Margins and Paddings */
+
+.sale{
+    position: absolute;
+    top: -1.5rem;
+    left: -2.5rem;
+    background-color: #d12222;
+    color: #f1f1f1;
+    display: inline-block;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    letter-spacing: 2px;
+}
+
+.color-pattern{
+    
+}
+
+.color1 ,.color2,.color3,.color4,.color5,.color6{
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin: 1rem;
+}
+
+.color1{
+    margin-left: 0;
+    
+    background-color: #1d1c1c;
+   
+}
+.color2{
+    
+    background-color: #233fbd;
+
+}
+
+.color3{
+    background-color: #f53513;
+}
+
+.color4{
+    background-color: #daaf23;
+}
+
+.color5{
+    background-color: #4dd659;
+}
+
+.color6{
+    background-color: #ac4806;
+}
