@@ -14,6 +14,7 @@ body {
   color: #1b1b1b;
   font-family: "Poppins", sans-serif;
   /* margin: 0 auto; */
+  
 }
 .container{
   width: 900px;
@@ -99,6 +100,7 @@ li {
 
 .post-header{
   margin-bottom: 2.5rem;
+  position: relative;
 }
 
 .related-author {
@@ -114,7 +116,7 @@ aside {
   border-top: 2px solid #0306c9;
   border-bottom: 2px solid #0306c9;
   padding: 1rem 0 1rem 0;
-  width: 30rem;
+  width: 700px
 }
 
 header {
@@ -175,3 +177,15 @@ li{
 }
 
 /* 019 CSS Theory */
+.btn-absolute{
+  font-size: 1.5rem;
+  padding: 1rem;
+
+  position: absolute;
+  cursor: pointer;
+  /* top: 100%;
+  left: 0;
+  right: 50%; */
+  bottom: 50px;
+  right: 50px;
+}
