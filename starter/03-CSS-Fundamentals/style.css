@@ -17,7 +17,7 @@ body {
   
 }
 .container{
-  width: 900px;
+  width: 1200px;
   margin: 0 auto;
   /* justify-content: center;
   align-items: center; */
@@ -228,4 +228,27 @@ h2::after{
   position: absolute;
   top: -1rem;
   right: -1rem;
+}
+
+/* FLOATS */
+author-img{
+  float: left;
+  margin-bottom: 1rem;
+}
+
+.author{
+  float: left;
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+}
+
+h1{
+  float: left;
+}
+nav{
+  float: right;
+}
+
+.clear{
+  clear:both
 }
