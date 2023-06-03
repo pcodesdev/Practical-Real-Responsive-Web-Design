@@ -92,6 +92,7 @@ text-decoration: none;
     font-size: 2rem;
     line-height: 2rem;
    margin: 1rem 0;
+   
 }
 
 /* List */
@@ -139,7 +140,7 @@ button:hover{
 }
 
 .color-pattern{
-    
+    margin-top: 1rem;
 }
 
 .color1 ,.color2,.color3,.color4,.color5,.color6{
@@ -181,15 +182,26 @@ button:hover{
     width: 300px;
 }
 
-.product-img,.product-pricing,.product-detail{
+.product-img,.product-pricing{
     margin-top: 1rem;
     float: left;
     
-    padding-right: 0.5rem;
+    margin-right: 2rem;
     
     
 }
 
+.product-img{
+    margin-top: 0;
+    margin-bottom: 0;
+    clear: both;
+}
+
+.product-detail{
+    margin-top: 1rem;
+    float: left;
+}
+
 .product-pricing,.product-detail{
-    width: 430px;
+    width: 410px;
 }

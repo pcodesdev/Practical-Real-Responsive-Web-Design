@@ -233,7 +233,7 @@ h2::after{
 }
 
 /* FLOATS */
-author-img{
+/* author-img{
   float: left;
   margin-bottom: 1rem;
 }
@@ -268,4 +268,42 @@ aside{
 
 footer{
   clear: both;
+} */
+
+/* FLEX BOX */
+.main-header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.author-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.related-post{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.related-author{
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.related-link:link{
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-style: normal;
+  margin-bottom: 4px;
+  display: block;
 }
