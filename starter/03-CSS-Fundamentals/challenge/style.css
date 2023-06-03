@@ -51,14 +51,15 @@ p{
     line-height: 2rem;
     font-weight: 700;
     float: left;
+    /* margin-bottom: 1rem; */
 }
  
 .discount{
     text-transform: uppercase;
     color: #797878;
     font-size: 1rem;
-    margin-bottom: 1rem;
-    margin-left: 6rem;
+    /* margin-bottom: 1rem;
+    margin-left: 6rem; */
     float: left;
     /* font-weight: 700; */
 }
@@ -91,7 +92,8 @@ text-decoration: none;
 .product-details{
     font-size: 2rem;
     line-height: 2rem;
-   margin: 1rem 0;
+   /* margin: 0.5rem 0; */
+   margin-bottom: 1rem;
    
 }
 
@@ -114,7 +116,7 @@ button{
     font-size: 1.5rem;
     line-height: 2rem;
     font-weight: 700;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
 
 border-top: 2px solid #1d1c1c;
     text-transform: uppercase;
@@ -141,13 +143,15 @@ button:hover{
 
 .color-pattern{
     margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
 }
 
 .color1 ,.color2,.color3,.color4,.color5,.color6{
-    display: inline-block;
+    /* display: inline-block; */
     width: 2rem;
     height: 2rem;
-    margin: 0.5rem;
+    /* margin: 0.5rem 0; */
 }
 
 .color1{
@@ -177,10 +181,11 @@ button:hover{
 .color6{
     background-color: #ac4806;
 }
-
 .product-img{
-    width: 300px;
+    margin-bottom: 0;
 }
+
+/* 
 
 .product-img,.product-pricing{
     margin-top: 1rem;
@@ -204,4 +209,19 @@ button:hover{
 
 .product-pricing,.product-detail{
     width: 410px;
+} */
+/* FLOAT BOX */
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+   
+}
+
+.inner-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
 }
