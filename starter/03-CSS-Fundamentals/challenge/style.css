@@ -3,38 +3,35 @@
 
 /* Headings Default Styles */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.container{
-    width: 1200px;
-    margin: 0 auto;
-}
+.container {}
 
-h2,h3{
+h2,
+h3 {
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
 }
 
 /* Paragraphs Default Styles */
 
-p{
+p {
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
     line-height: 2rem;
 }
 
-#article{
+#article {
     border: 4px solid #242424;
     position: relative;
-    margin: 2rem 0;
+    /* margin: 2rem 0; */
 }
 
-.main-heading{
-   
+.main-heading {
     text-align: center;
     background-color: #e6e4e4;
     font-size: 2.5rem;
@@ -46,60 +43,50 @@ p{
     top: 50%; */
 }
 
-.product-price{
+.product-price {
     font-size: 1.5rem;
     line-height: 2rem;
     font-weight: 700;
-    float: left;
+    /* float: left; */
     /* margin-bottom: 1rem; */
 }
- 
-.discount{
+
+.discount {
     text-transform: uppercase;
     color: #797878;
     font-size: 1rem;
     /* margin-bottom: 1rem;
     margin-left: 6rem; */
-    float: left;
+    /* float: left; */
     /* font-weight: 700; */
 }
 
-.main-description{
+.main-description {
     clear: both;
 }
 
-.more-info{
+.more-info {
     /* margin-bottom: 1rem; */
 }
 
-/* .more-info{
-    margin-bottom: 1rem;
-} */
-
-/* Link */
-
-a:link,a:visited{
+a:link,
+a:visited {
     color: #1d1c1c;
     font-size: 1.5rem;
 }
 
-a:link:hover{
-text-decoration: none;
+a:link:hover {
+    text-decoration: none;
 }
 
-
-
-.product-details{
+.product-details {
     font-size: 2rem;
     line-height: 2rem;
-   /* margin: 0.5rem 0; */
-   margin-bottom: 1rem;
-   
+    /* margin: 0.5rem 0; */
+    margin-bottom: 1rem;
 }
 
-/* List */
-
-ul li{
+ul li {
     list-style-type: square;
     font-size: 1.5rem;
     line-height: 1.5rem;
@@ -107,29 +94,26 @@ ul li{
     margin-left: 2rem;
 }
 
-/* Button */
-
-button{
+button {
     font-family: 'Poppins', sans-serif;
-    background-color:#1d1c1c;
-    color:#f1f1f1;
+    background-color: #1d1c1c;
+    color: #f1f1f1;
     font-size: 1.5rem;
     line-height: 2rem;
     font-weight: 700;
     /* margin-top: 1rem; */
-
-border-top: 2px solid #1d1c1c;
+    border-top: 2px solid #1d1c1c;
     text-transform: uppercase;
     width: 100%;
     height: 4rem;
 }
-button:hover{
-    background-color:#f1f1f1;
-    color:#1d1c1c;
-}
-/* Using Margins and Paddings */
 
-.sale{
+button:hover {
+    background-color: #f1f1f1;
+    color: #1d1c1c;
+}
+
+.sale {
     position: absolute;
     top: -1.5rem;
     left: -2.5rem;
@@ -141,91 +125,65 @@ button:hover{
     letter-spacing: 2px;
 }
 
-.color-pattern{
+.color-pattern {
     margin-top: 1rem;
     display: flex;
     gap: 1rem;
 }
 
-.color1 ,.color2,.color3,.color4,.color5,.color6{
-    /* display: inline-block; */
+.color1,
+.color2,
+.color3,
+.color4,
+.color5,
+.color6 {
     width: 2rem;
     height: 2rem;
-    /* margin: 0.5rem 0; */
 }
 
-.color1{
+.color1 {
     margin-left: 0;
-    
     background-color: #1d1c1c;
-   
 }
-.color2{
-    
+
+.color2 {
     background-color: #233fbd;
-
 }
 
-.color3{
+.color3 {
     background-color: #f53513;
 }
 
-.color4{
+.color4 {
     background-color: #daaf23;
 }
 
-.color5{
+.color5 {
     background-color: #4dd659;
 }
 
-.color6{
+.color6 {
     background-color: #ac4806;
 }
-.product-img{
+
+.product-img {
     margin-bottom: 0;
 }
 
-/* 
+.container {}
 
-.product-img,.product-pricing{
-    margin-top: 1rem;
-    float: left;
-    
-    margin-right: 2rem;
-    
-    
+#article {
+    display: grid;
+    grid-template-columns: 250px 1fr 1fr;
+    column-gap: 20px;
+    width: 1200px;
+    margin: 2rem;
 }
 
-.product-img{
-    margin-top: 0;
-    margin-bottom: 0;
-    clear: both;
+.main-heading {
+    grid-column: 1 / -1;
 }
 
-.product-detail{
-    margin-top: 1rem;
-    float: left;
-}
-
-.product-pricing,.product-detail{
-    width: 410px;
-} */
-/* FLOAT BOX */
-.row{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 2.5rem;
-   
-}
-
-.inner-row{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 1rem;
-}
-
-.product-detail,.product-pricing{
-flex: 1;
+button {
+    grid-column: 1 / -1;
 }
