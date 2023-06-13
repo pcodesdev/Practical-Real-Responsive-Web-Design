@@ -6,6 +6,10 @@ FONT SIZE SYSTEM (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 */
 
+/* MAIN COLOR: #794328 
+   TEXT COLOR: #343a40
+   BUTTON TEXT COLOR: #f8f9fa*/
+
 * {
   margin: 0;
   padding: 0;
@@ -17,6 +21,8 @@ FONT SIZE SYSTEM (px)
 /* ------------------------ */
 body {
   font-family: 'Inter', sans-serif;
+  color: #343a40;
+  border-bottom: 0.5rem solid #794328;
 }
 
 .container {
@@ -27,6 +33,35 @@ body {
 header,
 section {
   margin-bottom: 48px;
+}
+
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  color: #f8f9fa;
+  background-color: #794328;
+
+  border-radius: 2px 4px 6px;
+
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  /* letter-spacing: -2px; */
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #099268;
+}
+
+.btn--big {
+  font-size: 18px;
+  padding: 1rem 2rem;
+}
+
+.btn--small {
+  font-size: 12px;
+  padding: 1rem;
 }
 
 h2 {
@@ -88,7 +123,12 @@ img {
 }
 
 /* TESTIMONIAL */
-.testimonial-section {}
+.testimonial-section {
+  background-color: #794328;
+  color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 4px 8px 16px 4px;
+}
 
 .testimonial-box {
   grid-column: 2 / -1;
@@ -141,8 +181,11 @@ h3 {
   font-size: 20px;
 }
 
+
+
 footer {
   margin-bottom: 48px;
   font-size: 14px;
   text-align: center;
+  color: #495057;
 }
