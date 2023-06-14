@@ -76,6 +76,13 @@ h2 {
   column-gap: 80px;
 }
 
+.feature-icon {
+  width: 2rem;
+  stroke: #794328;
+  margin-bottom: 1rem;
+
+}
+
 /* ------------------------ */
 /* COMPONENT STYLES */
 /* ------------------------ */
