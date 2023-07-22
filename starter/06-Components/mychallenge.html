@@ -45,6 +45,13 @@ FONT SIZE SYSTEM (px)
   object-fit: cover;
 }
 
+.grid-item-2{
+  grid-column-start: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  /* z-index: -2; */
+}
+
 .grid-item-3{
   grid-column-start: 1;
   grid-row-start: 2;
@@ -74,7 +81,7 @@ body {
 <body>
     <div class="grid-container">
         <img src="assets/image1.jpg" width="300" height="200" alt="Image 1" class="grid-item">
-        <img src="assets/image2.jpg" width="300" height="200" alt="Image 2" class="grid-item ">
+        <img src="assets/image2.jpg" width="300" height="200" alt="Image 2" class="grid-item grid-item-2 ">
         <img src="assets/image3.jpg" width="621"  height="200" alt="Image 3" class="grid-item grid-col-span-2 grid-item-3">
         <img src="assets/image4.jpg" width="200" height="200" alt="Image 4" class="grid-item ">
         <img src="assets/image5.jpg" width="200" height="200" alt="Image 5" class="grid-item">
