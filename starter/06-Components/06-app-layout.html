@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Layout</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+           font-family: Arial, Helvetica, sans-serif; 
+           color: #343a40;
+           height: 100vh;
+           text-align: center;
+           font-weight: bold;
+           display: grid;
+           
+           grid-template-columns: 80px 400px 1fr 250px;
+           grid-template-rows: 80px 1fr;
+        }
+nav,  section, main, aside{
+    padding-top: 24px;
+}
+        nav{
+            background-color: #343a40;
+            color: #fff;
+            grid-row: 1/-1;
+        }
+
+        menu{
+            background-color: #6741d9;
+color: #fff;
+grid-column: 2/-1;
+display: flex;
+align-items: center;
+gap: 12px;
+padding: 0 40px;
+        }
+
+        button{
+            display: inline-block;
+            font-size: 24px;
+            background-color: #5f3dc4;
+            border: none;
+            cursor: pointer;
+            color: #fff;
+            padding: 8px 12px;
+            font-weight: bold;
+        }
+
+        button:last-child{
+            background-color: #f03e3e;
+            margin-left: auto;
+        }
+
+        section{
+            background-color: #f8f9fa;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 32px;
+        }
+
+        .email{
+            background-color: #adb5bd;
+            color: #fff;
+            padding: 16px 20px;
+            width: 300px;
+            font-weight: bold;
+            font-size: 32px;
+            border-radius: 4px;
+            border: none;
+            cursor: pointer;
+        }
+
+        aside{
+            background-color: #e9ecef;
+        }
+    </style>
+</head>
+<body>
+    <nav>Nav</nav>
+    <menu>
+        <button class="">New</button>
+        <button class="">Reply</button>
+        <button class="">Forward</button>
+        <button class="">Mark unread</button>
+        <button class="">Trash</button>
+    </menu>
+    <section>
+        <div class="email">Email 1</div>
+        <div class="email">Email 2</div>
+        <div class="email">Email 3</div>
+        <div class="email">Email 4</div>
+        <div class="email">Email 5</div>
+        <div class="email">Email 6</div>
+        <div class="email">Email 7</div>
+        <div class="email">Email 8</div>
+        <div class="email">Email 9</div>
+        <div class="email">Email 10</div>
+    </section>
+    <main>Email view</main>
+    <aside>Additional Info</aside>
+</body>
+</html>
