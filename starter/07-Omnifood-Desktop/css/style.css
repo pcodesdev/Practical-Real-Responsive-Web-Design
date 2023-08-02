@@ -1,0 +1,43 @@
+/* 
+--- 01  TYPOGRAPHY SYSTEM
+TYPE SCALE
+5.653rem/90.44px	
+3.998rem/63.96px	
+2.827rem/45.23px	
+1.999rem/31.99px	
+1.414rem/22.62px	
+1rem/16.00px	
+0.707rem/11.32px	
+0.5rem/8.00px	
+0.354rem/5.66px	
+
+--- 02 COLORS
+primary: #e67e22; 
+tints:
+shades:
+Accents:
+Greys:
+#555
+
+--- 03 SHADOWS
+
+--- 04 BORDER-RADIUS
+
+--- 05 WHITESPACE
+
+2/4/8/16/24/32/48/64/80/96/128
+
+ */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+}
