@@ -19,6 +19,7 @@ Accents:
 Greys:
 #555
 #333
+letter-spacing: 0.75px;
 
 --- 03 SHADOWS
 
@@ -190,15 +191,35 @@ body{
     padding: 3rem 0 6rem 0;
 }
 
-
+.heading-primary,
+.heading-secondary{
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    color: #333;
+}
 
 .heading-primary{
+    
     font-size: 3rem;
-    font-weight: 700;
     line-height: 1.05;
-    color: #333;
-    letter-spacing: -0.5px;
+    
     margin-bottom: 2rem;
+}
+
+.heading-secondary{
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 6rem;
+}
+
+.subheading{
+    font-weight: 500;
+    font-size: 1rem;
+    display: block;
+    color: #cf711f;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    letter-spacing: 0.75px;
 }
 
 .hero-description{
@@ -261,7 +282,11 @@ body{
 
 .section-how{
     padding: 6rem 0;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
+}
+
+.step-img{
+    width: 50%;
 }
 
 
